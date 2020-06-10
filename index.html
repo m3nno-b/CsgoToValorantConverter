@@ -67,6 +67,12 @@ function calculate() {
     document.getElementById("valorant_sens_output").value = cs_to_valorant; 
 }
 
+window.onkeypress = function(event) {
+   if (event.keyCode == 13) {
+      calculate();
+   }
+}
+
 </script>
 
 </body>
